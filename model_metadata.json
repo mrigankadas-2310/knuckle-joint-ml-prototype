@@ -1,0 +1,18 @@
+{
+  "selected_model": "ExtraTrees",
+  "features": [
+    "rod_diameter_mm",
+    "pin_diameter_mm",
+    "eye_thickness_mm",
+    "fork_thickness_mm",
+    "outer_eye_diameter_mm",
+    "applied_tensile_load_kN"
+  ],
+  "targets": [
+    "estimated_max_stress_MPa_proxy",
+    "estimated_deformation_mm_proxy",
+    "factor_of_safety_proxy"
+  ],
+  "data_type": "SYNTHETIC_ANALYTICAL_PROXY_NOT_FEA",
+  "warning": "Metrics assess synthetic proxy prediction only; they do not validate ANSYS/FEA accuracy."
+}
